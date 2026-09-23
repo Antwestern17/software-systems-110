@@ -99,8 +99,8 @@ Complete all of the following in your notes section.
 2. Server processes request
 3. server sends data back to client
 - [x] Browser displays the result
-- [ ] task 2
-- [ ] task 3
-[GitHub]https://github.com/Antwestern17/software-systems-110
+- [x] task 2
+- [x] task 3
+[GitHub](https://github.com/Antwestern17)
 
 
