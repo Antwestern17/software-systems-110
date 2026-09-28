@@ -1,0 +1,20 @@
+/* ELEMENT SELECTOR: Styles every element of this type. */
+h2 {
+    color: rgb(3, 0, 59);
+    font-family: "Arial", serif;
+    font-size: 24px;
+}
+
+/* CLASS SELECTOR: Styles elements with class="info-box". */
+.info-box {
+    background-color: rgb(189, 232, 240);
+    padding: 20px;
+    border: 2px solid rgb(8, 8, 8);
+    width: 400px;
+}
+
+/* ID SELECTOR: Styles the element with id="cssLogo". */
+#cssLogo {
+    margin: 20px;
+    height: 100px;
+}
