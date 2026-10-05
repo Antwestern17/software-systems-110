@@ -107,7 +107,7 @@
     <script>
 
         let doISayHello = true;
-        let doISayGoodbye = true;
+        let doISayGoodbye = false;
 
         function updateVariables() {
 
@@ -128,27 +128,88 @@
 
         function sayHello() {
 
+            /***********************************************************************
+            * DIRECTIONS
+            *
+            * Run the program using every possible combination of true and false
+            * values for the variables below.
+            *
+            * Record your observations for each test in the Student Observation
+            * Area.
+            ***********************************************************************/
+
+            /*
+                STUDENT OBSERVATION AREA
+            
+                Test #1
+                doISayHello = true
+                doISayGoodbye = true
+             
+                Observation:Whats up world
+
+
+                Yall crazy for camping in cold weather.
+            
+                ***********************************************************************
+                
+                Test #2
+                doISayHello = false
+                doISayGoodbye = false
+             
+                Observation: I dont camp in cold weather.
+                
+                yall crazy for camping in cold weather.
+
+
+            
+                ***********************************************************************
+
+                Test #3
+                doISayHello = true
+                doISayGoodbye = false
+             
+                Observation:Whats up world
+
+                Yall crazy for camping in cold weather.
+
+                ***********************************************************************    
+
+                Test #4
+                doISayHello = false
+                doISayGoodbye = true
+             
+                Observation:Adios, World!
+
+                Yall crazy for camping in cold weather. 
+                
+            */
+    
+
             let message;
             let finalMessage;
 
-            if(doISayHello == true) {
+            if(doISayHello == false) {
 
                 // Assign a greeting message.
+
                 message = "What's up, World!";
 
-            } else if(doISayGoodbye == true) {
+            } else if(doISayGoodbye === true) {
 
                 // Assign a goodbye message.
+
                 message = "Adios, World!";
 
             } else {
 
                 // Assign a default message.
+
                 message = "I dont camp in cold weather.";
 
             }
 
             // Assign a message that always displays.
+
             finalMessage = "Yall crazy for camping in cold weather.";
 
             displayMessages(message, finalMessage);

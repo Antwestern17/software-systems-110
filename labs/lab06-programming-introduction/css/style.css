@@ -12,7 +12,7 @@ body {
         #12001f 100%
     );
 
-    color: #ffffff;
+    color: #ee0e0e;
     font-family: "Segoe UI", Arial, sans-serif;
 
     min-height: 100vh;
@@ -66,11 +66,11 @@ body {
 
     background: rgba(0, 0, 0, 0.25);
 
-    border: 2px solid #ff66cc;
+    border: 2px solid #16c766;
     border-radius: 10px;
 
     box-shadow:
-        0 0 15px #ff66cc,
+        0 0 15px #e4f358,
         0 0 30px rgba(255, 102, 204, 0.35);
 }
 
@@ -83,7 +83,7 @@ h3 {
 }
 
 h1 {
-    color: #ff66cc;
+    color: #1f11ee;
 
     margin-top: 0;
     margin-bottom: 20px;
@@ -100,7 +100,7 @@ h2 {
 }
 
 h3 {
-    color: #ffb347;
+    color: #f51010;
 
     margin-top: 0;
     margin-bottom: 15px;
